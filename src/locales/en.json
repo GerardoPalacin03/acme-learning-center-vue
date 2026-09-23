@@ -11,6 +11,10 @@
     "tittle": "page not found",
     "content": "The page {unavailable-route}you are looking for doesn't exist",
     "go-home": "going home"
+  },
+  "option":{
+    "home": "Home",
+    "about": "About"
   }
 
 }
