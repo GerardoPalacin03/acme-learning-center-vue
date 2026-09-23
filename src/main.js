@@ -15,11 +15,10 @@ import {
     ConfirmDialog, DataTable,
     Dialog,
     DialogService, Drawer, FileUpload, FloatLabel, IconField, InputIcon, InputNumber, InputText, Menu,
-    Rating, Row, Select, SelectButton, Textarea, Toast,
+    Rating, Row, Select, SelectButton, Tag, Textarea, Toast,
     ToastService, Toolbar
 } from "primevue";
-import {Tag} from "@primeicons/vue";
-import {router} from "json-server";
+import router from "./router.js";
 
 const primeUiLicenseKey = import.meta.env.VITE_PRIME_UI_LICENSE_KEY;
 
@@ -52,6 +51,6 @@ createApp(App)
     .component('pv-textarea', Textarea)
     .component('pv-toolbar', Toolbar)
     .component('pv-toast', Toast)
-    .component('tooltip', Tooltip)
+    .directive('tooltip', Tooltip)
     .use(router)
     .mount('#app')
