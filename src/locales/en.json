@@ -6,6 +6,11 @@
   "about": {
     "tittle": "About us",
     "content": "ACME Learning Center is an Education Business Platform, part og ACME Corporation"
+  },
+  "page-not-found": {
+    "tittle": "page not found",
+    "content": "The page {unavailable-route}you are looking for doesn't exist",
+    "go-home": "going home"
   }
 
 }
