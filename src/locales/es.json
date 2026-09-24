@@ -1,3 +1,20 @@
 {
+  "home": {
+    "title": "bienvenido",
+    "content": "Bienvenido a ACME Learning Center."
+  },
+  "about": {
+    "title": "sobre nosotros",
+    "content": "ACME Learning Center es una plataforma de negocios educacionales, parte de la ACME Corporation"
+  },
+  "page-not-found": {
+    "title": "pagina no encontrada",
+    "content": "la página {unavailable-route} que buscas no existe",
+    "go-home": "ir al inicio"
+  },
+  "option":{
+    "home": "Inicio",
+    "about": "Acerca de"
+  }
 
 }
